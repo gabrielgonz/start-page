@@ -1,0 +1,67 @@
+@font-face{
+	font-family: loveland;
+	src: url('Loveland Personal Use.ttf');
+}
+
+body{
+	background-color: #1c1a21;
+	color: #fffcf0;
+	font-family: Lucida Sans Unicode; 
+	margin: 0;
+	padding: 0;
+}
+
+#words{
+	font-family: loveland;
+	font-size: 175px;
+	margin-top: 125px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.shorts{
+	float: left;
+	text-align: center;
+	width: 20%;
+}
+
+#tdp {
+	background-color:  #8c2131;
+}
+
+#learn{
+	background-color: #053138;
+}
+
+#ent{
+	background-color: #0c2733;
+}
+
+#proj{
+	background-color: #200921;
+}
+
+#util{
+	background-color: #0F0721;
+}
+
+
+h3{
+	font-size: 30px;
+}
+
+ul{
+	padding: 0;
+	padding-bottom: 15px;
+}
+
+li{
+	list-style: none;
+	line-height:1.6em;
+	font-size: 25px;
+}
+
+a{
+	color: #fffcf0;
+	text-decoration: none;
+}
