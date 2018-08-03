@@ -10,10 +10,17 @@ body{
 	margin: 0;
 	padding: 0;
 }
+#topword{
+	 width: 17%;
+	 margin: 0 auto;
+	 /*background-color: yellow;*/
+	 /*just a test to see the the div around "hello" is*/
+}
 
 #words{
 	font-family: loveland;
 	font-size: 175px;
+	padding-bottom: 0px;
 	margin-top: 125px;
 	margin-bottom: 30px;
 	text-align: center;
@@ -64,4 +71,21 @@ li{
 a{
 	color: #fffcf0;
 	text-decoration: none;
+}
+
+a:hover{
+	font-size: 2rem;
+}
+
+#topword:hover{
+	animation: colorshift 3s ease-in infinite;
+}
+
+@keyframes colorshift{
+	0% {color: #8c2131;}
+	20% {color: #053138;}
+	40% {color: #0c2733;}
+	60% {color: #200921;}
+	80%{color: #0F0721;}
+	100% {color: #8c2131;}
 }
